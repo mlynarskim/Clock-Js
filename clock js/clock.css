@@ -1,0 +1,53 @@
+body {
+    background-color: mediumaquamarine;
+}
+
+p {
+    background-color: greenyellow;
+    border: solid black 10px;
+    border-radius: 100px;
+    text-align: center;
+    padding: 50px;
+    font-size: 60px;
+    color: darkblue;
+}
+
+b {
+    border: solid black 10px;
+    border-radius: 100px;
+    text-align: center;
+    padding: 50px;
+    font-size: 60px;
+    color: darkred;
+}
+
+b:hover {
+    color: black;
+}
+
+#clock {
+    text-align: center;
+    margin-top: 20px;
+    background-color: lightskyblue;
+    border: solid;
+    border-radius: 0 60px;
+    font-size: 60px;
+}
+
+.date {
+    padding: 5px;
+    border: solid black 2px;
+    border-radius: 50% 10%;
+    margin-left: 60vh;
+    font-size: 30px;
+    color: blue;
+}
+
+.time {
+    padding: 5px;
+    border: solid black 2px;
+    border-radius: 10% 50%;
+    margin-left: 25vh;
+    font-size: 30px;
+    Color: blue;
+}
