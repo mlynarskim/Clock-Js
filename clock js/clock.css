@@ -1,14 +1,50 @@
+@media (min-width: 1100px) {
+    #container {
+        width: 1050px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1100px) and (min-width: 1000px) {
+    #container {
+        width: 950px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+    #container {
+        width: 750px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 500px) {
+    #container {
+        width: 450px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 500px) {
+    #container {
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+
+
 body {
     background-color: mediumaquamarine;
 }
 
 p {
     background-color: greenyellow;
-    border: solid black 10px;
+    border: solid black 15px;
     border-radius: 100px;
     text-align: center;
-    padding: 50px;
-    font-size: 60px;
+    padding: 60px;
+    font-size: 40px;
     color: darkblue;
 }
 
@@ -16,7 +52,7 @@ b {
     border: solid black 10px;
     border-radius: 100px;
     text-align: center;
-    padding: 50px;
+    padding: 15px;
     font-size: 60px;
     color: darkred;
 }
@@ -38,7 +74,7 @@ b:hover {
     padding: 5px;
     border: solid black 2px;
     border-radius: 50% 10%;
-    margin-left: 60vh;
+    margin-left: 275px;
     font-size: 30px;
     color: blue;
 }
@@ -47,7 +83,7 @@ b:hover {
     padding: 5px;
     border: solid black 2px;
     border-radius: 10% 50%;
-    margin-left: 25vh;
+    margin-left: 255px;
     font-size: 30px;
     Color: blue;
 }
